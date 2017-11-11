@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nenneadora.alcchallenge.ConversionActivity"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    tools:showIn="@layout/activity_conversion">
+
+
+    <ImageView
+        android:id="@+id/baseCurrencyImageView"
+        android:layout_width="@dimen/image_dimensions"
+        android:layout_height="@dimen/image_dimensions"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/image_top_padding"
+        android:layout_marginBottom="@dimen/bottom_padding"
+     />
+
+
+    <TextView
+        android:id="@+id/currencyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/base_currency_textsize"
+        android:layout_marginBottom="@dimen/bottom_padding"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+
+    <EditText
+        android:id="@+id/baseCurrencyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_text_height"
+        android:layout_marginLeft="@dimen/edit_text_margin"
+        android:layout_marginRight="@dimen/edit_text_margin"
+        android:layout_marginBottom="@dimen/edit_text_margin"
+        android:gravity="center"
+        android:textSize="@dimen/edit_textsize"
+        android:inputType="numberDecimal"
+        />
+
+    <!--<Button
+        android:id="@+id/convertButton"
+        android:layout_marginLeft="@dimen/edit_text_margin"
+        android:layout_marginRight="@dimen/edit_text_margin"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/convert"
+        android:textColor="@android:color/white"
+        android:layout_height="@dimen/button_height"
+        android:textSize="@dimen/button_font"
+        android:textStyle="bold"
+        android:background="@drawable/mybutton" />
+        -->
+
+
+
+</LinearLayout>
