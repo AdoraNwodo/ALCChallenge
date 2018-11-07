@@ -1,4 +1,9 @@
 # Cyptoculator by NenneAdora
+
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/AdoraNwodo/ALCChallenge/)
+[![Generic badge](https://img.shields.io/badge/build-passing-green.svg)](https://github.com/AdoraNwodo/ALCChallenge/)
+
+
 An Android application that shows the latest exchange rate between cryptocurrencies (BTC and ETH) and 
 20 major world currencies (including Naira). This application uses the cryptocompare public api.
 
